@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TipCalculatorSpring2021</string>
+    <string name="bill_amount">Bill Amount</string>
+    <string name="tip_percent">Tip Percent</string>
+    <string name="default_tip">15</string>
+    <string name="tip_amount">Tip Amount</string>
+    <string name="currency_symbol">$</string>
+    <string name="up_button">Up Button</string>
+    <string name="down_button">Down Button</string>
+    <string name="percent_symbol">%</string>
+    <string name="total_amount">Total</string>
+    <string name="calculate_btn">Calculate</string>
+</resources>
