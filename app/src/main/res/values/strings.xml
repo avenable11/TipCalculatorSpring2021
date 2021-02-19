@@ -10,4 +10,14 @@
     <string name="percent_symbol">%</string>
     <string name="total_amount">Total</string>
     <string name="calculate_btn">Calculate</string>
+    <string name="round_no">No Rounding</string>
+    <string name="round_tip">Round Tip</string>
+    <string name="round_total">Round Total</string>
+    <string name="split_hint">Split The Bill</string>
+    <string-array name="split_array">
+        <item>No</item>
+        <item>2 ways</item>
+        <item>3 ways</item>
+        <item>4 ways</item>
+    </string-array>
 </resources>
