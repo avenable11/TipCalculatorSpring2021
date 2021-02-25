@@ -14,6 +14,7 @@
     <string name="round_tip">Round Tip</string>
     <string name="round_total">Round Total</string>
     <string name="split_hint">Split The Bill</string>
+    <string name="eachPays">Each Pays</string>
     <string-array name="split_array">
         <item>No</item>
         <item>2 ways</item>
