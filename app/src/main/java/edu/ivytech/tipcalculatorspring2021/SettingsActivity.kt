@@ -24,7 +24,10 @@ class SettingsActivity : AppCompatActivity() {
     class SettingsFragment : PreferenceFragmentCompat() {
         override fun onCreatePreferences(savedInstanceState: Bundle?, rootKey: String?) {
             setPreferencesFromResource(R.xml.root_preferences, rootKey)
-
+            val currencyPref:EditTextPreference? = findPreference(getString(R.string.currency_symbol_key))
+            currencyPref?.setOnPreferenceChangeListener { preference, newValue ->
+                newValue == "$" || newValue == "£" || newValue == getString(R.string.korean_won)
+            }
         }
 
     }
