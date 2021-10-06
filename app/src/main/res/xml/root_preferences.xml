@@ -1,0 +1,22 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditTextPreference
+
+        android:defaultValue="@string/currency_symbol"
+        app:key="@string/currency_symbol_key"
+        app:title="@string/default_currency_symbol"
+        app:useSimpleSummaryProvider="true" />
+    <ListPreference
+        app:defaultValue="0"
+        app:entries="@array/reply_entries"
+        app:entryValues="@array/reply_values"
+        app:key="reply"
+        app:title="@string/reply_title"
+        app:useSimpleSummaryProvider="true" />
+
+    <SwitchPreferenceCompat
+        app:key="sync"
+        app:title="@string/sync_title" />
+
+</PreferenceScreen>
